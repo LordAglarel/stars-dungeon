@@ -1,5 +1,5 @@
 # Development
-# 27471f7a-208b-413b-86fe-531050e1e33d
+# 280e97dd-01b9-454f-845b-14a7a5e91f74
 # Production
 # abd22d03-21d0-41f5-87a4-74371cd6a22b
 
@@ -777,5 +777,6 @@ def auto_monster(auto_once=True, auto_react=False):
         map_embed = f'{pref}{get_message.get_message(title=title, description=description, image=map_url)}'
         command_list.append(map_embed)
         return command_list
+
 
     return command_list
