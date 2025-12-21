@@ -13,15 +13,15 @@ cname_list, command_list, combatant_mismatch = [],[],[]
 multiattack, spell_viable, counter = False, False, 0
 
 using(
-    autolib = "40c06ebb-8487-4e0f-8cd5-e38d52364c53",
-    core = "49f5f503-1c00-4f24-ba43-92e65c2c2fb6",
-    presets = "c14e4526-4acb-4964-8ba9-f6861617ffdf",
-    mapl = "4b5633ff-7082-4411-95b3-50970c30e832",
-    mobl = "65c27eae-11c3-4b5c-90e5-472bc49f0037",
-    targl = "f8369cc0-8ab0-42a5-8dfd-4ab7f34c0e61",
-    helpl = "aacef7e2-fb6a-4786-9d26-193ed45e4916"
+    autolib = "059d256d-4c94-4531-b807-44d38a081a3a",
+    core = "1f8481c1-b16b-4391-a4e3-c7918bf7d76f",
+    presets = "5db94eb6-a9fd-4e75-8633-2b09b6e320a5",
+    mapl = "e0cef25e-c53b-458c-80e3-b4259629c869",
+    mobl = "3d9b7f43-3a9a-49cf-884e-92ef42e330a2",
+    targl = "f6c857e6-5ec0-4bc5-86e8-9812a1ff6b8b",
+    helpl = "9984d33b-8dfa-4ab7-b14f-81f2e78f2e75"
 )
-using(env="0836565c-d03d-4f1f-9306-5e210c69b3d1")
+using(env="cdbb6189-a7e1-42cf-8026-5fbf170376d3")
 using(
     get_message = env.get_gvar_id_by_name("get_message"),
     map_tools = env.get_gvar_id_by_name("map_tools"),
@@ -780,4 +780,5 @@ def auto_monster(auto_once=True, auto_react=False):
 
 
     return command_list
+
 
