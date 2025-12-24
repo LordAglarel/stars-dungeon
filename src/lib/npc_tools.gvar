@@ -1,9 +1,9 @@
 # Development
-# 50ca7e2f-4ac7-438f-bf6a-859233d50b23
+# b8d10d6e-cabe-4283-a20f-35bf76d90cb6
 # Production
-# 521ded99-888c-4765-ba6b-f833d66ced27
+# 5efa685e-7a28-46ff-8121-e1dd3b1d3696
 
-using(env="0836565c-d03d-4f1f-9306-5e210c69b3d1")
+using(env="72fbaff3-db2a-4d87-b025-931d6b5f417e")
 using(
     random = env.get_gvar_id_by_name("random"),
     get_dungeon_data = env.get_gvar_id_by_name("get_dungeon_data"),
@@ -69,4 +69,5 @@ def get_add_npcs_commands(dungeon_data, floor_data):
                 npc_commands.append(f'{action_to_take(npc, floor_data, dungeon_data)}')
 
     random.setState(oldState)
+
     return npc_commands
