@@ -1,7 +1,7 @@
 # Development
-# 9d986792-ba34-491c-8d26-5191ca05aa5d
+# f3ba6c34-e46c-4ea8-970d-a4214b2daa45
 # Production
-# 14e039a9-8241-464d-9209-23114d166f59
+# e3f6421e-70a4-45b7-a054-673900b9fa11
 
 ROOMS_BEFORE_SHORT_REST = 3
 ROOMS_BEFORE_SKIP = 4
@@ -202,4 +202,5 @@ If the prayer is not offered or is failed, the chalice remains dim, but the cler
 
 The air on this floor is awash with humming magical energy. All adventurers present gain 10 temporary hp. ```{ctx.prefix}g thp 10```"""
       ),
+
 ]
