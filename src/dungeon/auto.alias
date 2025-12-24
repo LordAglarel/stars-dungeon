@@ -1,5 +1,5 @@
 <drac2>
-using(env="72fbaff3-db2a-4d87-b025-931d6b5f417e")
+using(env="ec971e83-e132-45d8-a871-1ebeef63c250")
 using(
     auto_tools = env.get_gvar_id_by_name("auto_tools")
 )
@@ -14,3 +14,4 @@ monster_commands = auto_tools.auto_monster(auto_once=True, auto_react=False)
 return f'multiline\n' + "\n".join(monster_commands)
 
 </drac2>
+
