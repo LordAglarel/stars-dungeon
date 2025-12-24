@@ -1,11 +1,11 @@
 # Development
-# b0967794-7146-4503-ba0c-b94aa539b321
+# 33bf7670-f62d-449c-a55a-a9f18d7034b0
 # Production
-# c1a83721-ba23-43e6-992d-3c5c3f56c93b
+# 092a7efd-4da0-4423-858e-927ba8b2f330
 
 # https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monsters#MonsterStatBlocks
 
-using(env="0836565c-d03d-4f1f-9306-5e210c69b3d1")
+using(env="72fbaff3-db2a-4d87-b025-931d6b5f417e")
 using(
     server_config = env.get_gvar_id_by_name("server_config")
 )
@@ -2532,3 +2532,4 @@ def get_monsters_in_cr_range(cr_min, cr_max) -> dict[int, object]:
                 monsters_in_range[monster.cr] = [monster]
 
     return monsters_in_range
+
