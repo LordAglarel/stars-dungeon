@@ -1,7 +1,7 @@
 # Development
-# e0665619-4690-4724-875a-b6779e88a7f9
+# 399d967f-e956-4a04-a878-4332ca6751ba
 # Production
-# a1cd80b3-772b-49b7-8bf0-c743cd380ccb	
+# 9f59576d-69ff-42e3-ab55-1e04b2216f6d	
 
 SEED_KEY = "DowntimeDungeon_SeedData"
 SEED_CURRENT = "current"
@@ -50,5 +50,6 @@ def get_random_integer(start, stop, seed = None):
 
     if(updateSeed):
         value[SEED_CURRENT] = val
+
 
     return round(val % range_length) + start
