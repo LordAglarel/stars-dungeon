@@ -1,9 +1,9 @@
 # Development
-# d2ad1c71-0e1d-464c-b90f-761405cd249b
+# 01c740c3-06c3-4298-8db5-635f0f925a50
 # Production
-# 3dc472d1-b166-49a5-a801-ead859547152
+# d7606a4d-0cf0-4564-b3c6-874f8184ea46
 
-using(env="0836565c-d03d-4f1f-9306-5e210c69b3d1")
+using(env="72fbaff3-db2a-4d87-b025-931d6b5f417e")
 using(
     random = env.get_gvar_id_by_name("random"),
 )
@@ -600,4 +600,5 @@ def get_random_npc(seed = None):
         "goal": goal,
         "sheet": npc_sheet,
         "dead": False
+
     }
