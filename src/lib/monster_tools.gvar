@@ -1,9 +1,9 @@
 # Development
-# 9d62fab6-eff1-4f53-a24a-38ea4fc99713
+# 41b72833-d807-42c2-8998-60b34f72b013
 # Production
-# d62a1569-c48b-4e80-8702-96d05ffaacb9
+# f579c10c-9367-43de-b2d0-e749fca63e6d
 
-using(env="0836565c-d03d-4f1f-9306-5e210c69b3d1")
+using(env="72fbaff3-db2a-4d87-b025-931d6b5f417e")
 using(
     random = env.get_gvar_id_by_name("random")
 )
@@ -94,5 +94,6 @@ def get_monster_names(dungeon_data, floor_data):
                 monster_names.append(f'{index}-{name}')
         else:
             monster_names.append(name)
+
 
     return monster_names
