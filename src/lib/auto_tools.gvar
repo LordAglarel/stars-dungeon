@@ -21,7 +21,7 @@ using(
     targl = "f6c857e6-5ec0-4bc5-86e8-9812a1ff6b8b",
     helpl = "9984d33b-8dfa-4ab7-b14f-81f2e78f2e75"
 )
-using(env="cdbb6189-a7e1-42cf-8026-5fbf170376d3")
+using(env="72fbaff3-db2a-4d87-b025-931d6b5f417e")
 using(
     get_message = env.get_gvar_id_by_name("get_message"),
     map_tools = env.get_gvar_id_by_name("map_tools"),
@@ -780,5 +780,6 @@ def auto_monster(auto_once=True, auto_react=False):
 
 
     return command_list
+
 
 
