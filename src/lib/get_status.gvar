@@ -1,7 +1,7 @@
 # Development
-# cf0a6486-b429-49fe-95b8-0dec6187a95d
+# b8740d67-7a4d-4091-928a-94bcb257daab
 # Production
-# 37def108-11f5-45aa-a000-f8c68ff72207
+# 4035c376-6efa-4202-bf47-0f532c34259d
 
 seconds_in_a_round = 6
 minute_in_rounds = 10
@@ -43,3 +43,4 @@ def get_status_description(round_num, dungeon_data):
         output += f'{time_data["seconds"]} seconds'
 
     return output
+
