@@ -1,7 +1,7 @@
 # Development
-# c8d78194-0128-4429-a253-e6a2df36caf2
+# 7fe46caf-959f-4a2a-83c2-b2c11767ed34
 # Production
-# 468bce27-653b-47aa-b8ed-9357196459df
+# b38419ef-4e38-441e-ad0e-4897cbc27426
 
 def set_combatant_square(combatant, square):
     update_combatant_note(combatant, location=square)
@@ -132,5 +132,6 @@ def generate_map_image(overlays=None, from_state=None, skip_combatants=[]):
     loadedjson = map_info.get("json", "").split(", ") if map_info.get("json") else []
     if loadedjson:
         map_url += f"{'&' if '?' in map_url else '?'}load={'&load='.join(loadedjson)}"
+
 
     return map_url
