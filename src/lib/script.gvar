@@ -1,7 +1,7 @@
 # Development
-# f79a73a7-3d3d-4b2b-9435-4fd791f6133e
+# ef946881-36e6-4ac7-9f12-00e9b875cfad
 # Production
-# ed8121b6-8534-42cf-84f0-1e46269ed9c8
+# 94024f69-6bce-48ea-8a6b-599ebb111954
 
 avrae_asking_for_inputs = {
     "title": "Avrae asking for inputs?",
@@ -195,3 +195,4 @@ def get_script(section_name = None):
             new_script.append(section)
 
     return new_script
+
