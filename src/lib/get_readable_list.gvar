@@ -1,9 +1,10 @@
-# fbdefe43-b658-482b-82ec-d77be042b98c
+# 054211d9-dc8d-4cf8-9ae6-aea34b6a9e25
 
 def get_readable_list(items):
     if len(items) == 1:
         items_str = items[0]
     else:
         items_str = " and ".join([", ".join(items[:-1]), items[-1]])
+
 
     return items_str
