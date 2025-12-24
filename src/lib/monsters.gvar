@@ -5,7 +5,7 @@
 
 # https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monsters#MonsterStatBlocks
 
-using(env="72fbaff3-db2a-4d87-b025-931d6b5f417e")
+using(env="ec971e83-e132-45d8-a871-1ebeef63c250")
 using(
     server_config = env.get_gvar_id_by_name("server_config")
 )
@@ -2532,4 +2532,5 @@ def get_monsters_in_cr_range(cr_min, cr_max) -> dict[int, object]:
                 monsters_in_range[monster.cr] = [monster]
 
     return monsters_in_range
+
 
