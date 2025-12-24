@@ -1,9 +1,9 @@
 # Development
-# 673c127c-9511-409a-89b8-042da80cbf58
+# 1ff50042-20c6-443e-8e73-6465d75f7232
 # Production
-# 87c896d0-1ba1-47ae-bd93-827da92f78aa
+# 6974c8b0-7818-4a67-a08c-c17f30ef112d
 
-using(env="0836565c-d03d-4f1f-9306-5e210c69b3d1")
+using(env="72fbaff3-db2a-4d87-b025-931d6b5f417e")
 using(
     maps = env.get_gvar_id_by_name("maps"),
     random = env.get_gvar_id_by_name("random")
@@ -20,3 +20,4 @@ def pick_map(seed = None):
         random.setSeed(oldSeed)
 
     return maps.map_list[map_index]
+
